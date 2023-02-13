@@ -27,6 +27,15 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+        var boxer1 = 78.2;
+        var boxer2 = 82.7;
+        var totalWeight = boxer1 + boxer2;
+        System.out.println("Общий вес боксеров " + totalWeight + "кг.");
+        var weightDifference = boxer2 - boxer1;
+        System.out.println("Разница между весами боксеров " + weightDifference + "кг.");
+        var weightDifference2 = (boxer1 + boxer2) % boxer1;
+        System.out.println("Разница между весами боксеров 2 вариант расчета " + weightDifference2 + "кг.");
+
 
     }
 }
