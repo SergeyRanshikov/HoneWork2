@@ -43,6 +43,5 @@ public class Main {
         var totalTime2 = amountOfWorkers * time1;
         System.out.println("Если в компании работает " + amountOfWorkers + " человек, то всего " + totalTime2 + " часов работы может быть поделено между сотрудниками");
 
-
     }
 }
