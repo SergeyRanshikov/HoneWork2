@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        System.out.println("Здравствуй Мир!");
         var dog = 8.0;
         System.out.println(dog);
         var cat = 3.6;
@@ -35,7 +35,13 @@ public class Main {
         System.out.println("Разница между весами боксеров " + weightDifference + "кг.");
         var weightDifference2 = (boxer1 + boxer2) % boxer1;
         System.out.println("Разница между весами боксеров 2 вариант расчета " + weightDifference2 + "кг.");
-
+        var totalTime = 640;
+        var time1 = 8;
+        var amountOfWorkers = totalTime / time1;
+        System.out.println("Всего работников в компании " + amountOfWorkers + " человек");
+        amountOfWorkers = amountOfWorkers + 94;
+        var totalTime2 = amountOfWorkers * time1;
+        System.out.println("Если в компании работает " + amountOfWorkers + " человек, то всего " + totalTime2 + " часов работы может быть поделено между сотрудниками");
 
     }
 }
